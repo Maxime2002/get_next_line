@@ -18,7 +18,7 @@
 # endif
 
 # ifndef FOPEN_MAX
-#  define FOPEN_MAX 100
+#  define FOPEN_MAX 246
 # endif
 
 # include<stdlib.h>
