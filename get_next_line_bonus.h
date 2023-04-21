@@ -1,20 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mlangloi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/20 22:25:23 by mlangloi          #+#    #+#             */
-/*   Updated: 2023/04/20 22:28:58 by mlangloi         ###   ########.fr       */
+/*   Created: 2023/04/21 15:46:18 by mlangloi          #+#    #+#             */
+/*   Updated: 2023/04/21 15:46:50 by mlangloi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 10
+# endif
+
+# ifndef FOPEN_MAX
+#  define FOPEN_MAX 100
 # endif
 
 # include<stdlib.h>
