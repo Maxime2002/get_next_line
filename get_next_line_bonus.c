@@ -18,7 +18,7 @@ char	*get_next_line(int fd)
 	char		*next_line;
 	int			i;
 
-	if (fd < 0 || BUFFER_SIZE <= 0)
+	if (fd < 0 || BUFFER_SIZE <= 0 || FOPEN_MAX < fd)
 		return (NULL);
 	next_line = ft_strjoin(0, line[fd]);
 	if (ft_clean(line[fd]) > 0)
